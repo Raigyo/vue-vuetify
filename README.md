@@ -1,24 +1,10 @@
-# vuetify-todo
+## Dependancies / Plugins
 
-## Project setup
-```
-npm install
-```
+- [Vuetify](https://vuetifyjs.com/en/): Material Design Framework
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`vue add vuetify`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## useful links
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Make Apps with Danny - Vue.js Basics](https://www.youtube.com/watch?v=O25jFVucQiw)
+- [Make Apps with Danny - Vue js Lists & Child Components](https://www.youtube.com/watch?v=VVjHdzRBCrA)
