@@ -1,6 +1,6 @@
 # Vue JS / Vuex - Task manager using Vietify
 
-_June / July 2021_
+_October 2021_
 
 > 🔨 From udemy: [Vuetify: Create an App with Vue JS & Vuex - Danny Connel](https://www.udemy.com/course/vuetify-vuejs-vuex).
 
