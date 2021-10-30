@@ -1,6 +1,17 @@
 <template>
   <div class="home">
-    <v-list flat class="pt-0">
+    <v-text-field
+      v-model="newTaskTitle"
+      @click:append="addTask"
+      @keyup.enter="addTask"
+      class="pa-3"
+      outlined
+      label="Add task"
+      append-icon="mdi-plus"
+      hide-details
+      clearable
+    ></v-text-field>
+    <v-list v-if="tasks.length" flat class="pt-0">
       <v-subheader>List of tasks</v-subheader>
       <v-divider></v-divider>
       <div v-for="task in tasks" :key="task.id">
@@ -30,6 +41,10 @@
         <v-divider></v-divider>
       </div>
     </v-list>
+    <div class="no-tasks" v-else>
+      <v-icon size="100" color="primary">mdi-check </v-icon>
+      <div class="text-h5 primary--text">No tasks</div>
+    </div>
   </div>
 </template>
 
@@ -41,22 +56,23 @@ export default {
 
   data() {
     return {
+      newTaskTitle: "",
       tasks: [
-        {
-          id: 1,
-          title: "Wake up",
-          done: false,
-        },
-        {
-          id: 2,
-          title: "Wake up2",
-          done: false,
-        },
-        {
-          id: 3,
-          title: "Wake up3",
-          done: false,
-        },
+        // {
+        //   id: 1,
+        //   title: "Wake up",
+        //   done: false,
+        // },
+        // {
+        //   id: 2,
+        //   title: "Wake up2",
+        //   done: false,
+        // },
+        // {
+        //   id: 3,
+        //   title: "Wake up3",
+        //   done: false,
+        // },
       ],
     };
   },
@@ -68,6 +84,24 @@ export default {
     deleteTask(id) {
       this.tasks = this.tasks.filter((task) => task.id !== id);
     },
+    addTask() {
+      let newTask = {
+        id: Date.now(),
+        title: this.newTaskTitle,
+        done: false,
+      };
+      this.tasks.push(newTask);
+      this.newTaskTitle = "";
+    },
   },
 };
 </script>
+
+<style lang="sass">
+.no-tasks
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  opacity: .6
+</style>
