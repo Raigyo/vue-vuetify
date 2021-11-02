@@ -16,10 +16,7 @@
           >
         </v-list-item-content>
         <v-list-item-action>
-          <!-- modifier 'stop' to not affect the parent -->
-          <v-btn @click.stop="$store.dispatch('deleteTask', task.id)" icon>
-            <v-icon color="primary lighten-1">mdi-delete</v-icon>
-          </v-btn>
+          <task-menu :task="task" />
         </v-list-item-action>
       </template>
     </v-list-item>
@@ -28,7 +25,12 @@
 </template>
 
 <script>
+import TaskMenu from "@/components/ToDo/TaskMenu";
+
 export default {
   props: ["task"],
+  components: {
+    "task-menu": TaskMenu,
+  },
 };
 </script>
