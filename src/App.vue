@@ -58,11 +58,13 @@
     <v-sheet id="scrolling-techniques-5" max-height="600"> </v-sheet>
     <v-main>
       <router-view></router-view>
+      <snackbar />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import SnackBar from "@/components/Shared/Snackbar";
 export default {
   data: () => ({
     drawer: null,
@@ -71,5 +73,6 @@ export default {
       { title: "About", icon: "mdi-help-box", to: "/about" },
     ],
   }),
+  components: { snackbar: SnackBar },
 };
 </script>
