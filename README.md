@@ -67,9 +67,13 @@ store.state.b // -> `moduleB`'s state
 
 ## Dependancies / Plugins
 
-- [Vuetify](https://vuetifyjs.com/en/): Material Design Framework
+- [Vuetify](https://vuetifyjs.com/en/): Material Design Framework.
 
 `vue add vuetify`
+
+- [date-fns](https://www.npmjs.com/package/date-fns): date-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.
+
+`npm i date-fns`
 
 ## useful links
 
