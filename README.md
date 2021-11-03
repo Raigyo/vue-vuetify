@@ -76,3 +76,5 @@ store.state.b // -> `moduleB`'s state
 - [Make Apps with Danny - Vue.js Basics](https://www.youtube.com/watch?v=O25jFVucQiw)
 - [Make Apps with Danny - Vue js Lists & Child Components](https://www.youtube.com/watch?v=VVjHdzRBCrA)
 - [Outils de développement Vue 3 | Quoi de neuf?](https://www.youtube.com/watch?v=ZBkZ7apIA_Y)
+- [Vuetify roadmap](https://vuetifyjs.com/en/introduction/roadmap/#v30-titan)
+- [Computed Props and Watchers — What's the Difference?](https://michaelnthiessen.com/difference-between-computed-property-and-watcher/n)

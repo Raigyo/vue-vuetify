@@ -1,7 +1,7 @@
 <template>
   <v-dialog :value="true" persistent max-width="290">
     <v-card>
-      <v-card-title class="text-h5"> Delete task? </v-card-title>
+      <v-card-title class="text-h5">Delete task?</v-card-title>
       <v-card-text>Are you sure you want to delete this task?</v-card-text>
       <v-card-actions class="justify-center">
         <v-spacer></v-spacer>
