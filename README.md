@@ -116,6 +116,12 @@ Even if the component is re-rendering like crazy in the meantime, the logic is n
 
 `npm i date-fns`
 
+- [vuedraggable](https://www.npmjs.com/package/vuedraggable): Vue component (Vue.js 2.0) or directive (Vue.js 1.0) allowing drag-and-drop and synchronization with view model array.
+
+`npm i vuedraggable`
+
+`npm install --save @/vuedraggable`
+
 ## useful links
 
 - [Make Apps with Danny - Vue.js Basics](https://www.youtube.com/watch?v=O25jFVucQiw)
