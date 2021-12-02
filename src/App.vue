@@ -79,6 +79,9 @@ export default {
       { title: "About", icon: "mdi-help-box", to: "/about" },
     ],
   }),
+  mounted() {
+    this.$store.dispatch("getTasks");
+  },
   // computed: {
   //   appTitle() {
   //     return process.env.VUE_APP_TITLE;

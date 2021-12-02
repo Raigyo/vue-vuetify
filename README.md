@@ -122,6 +122,10 @@ Even if the component is re-rendering like crazy in the meantime, the logic is n
 
 `npm install --save @/vuedraggable`
 
+- [dannyconnell/localbase](https://github.com/dannyconnell/localbase): A Firebase-Style Database ... Offline! Localbase gives you an offline database with the simplicity & power of Firebase, all stored in the user's browser (in an IndexedDB database).
+
+`npm install localbase --save`
+
 ## useful links
 
 - [Make Apps with Danny - Vue.js Basics](https://www.youtube.com/watch?v=O25jFVucQiw)
