@@ -59,6 +59,10 @@ export default new Vuex.Store({
       let task = state.tasks.filter((task) => task.id === payload.id)[0];
       task.dueDate = payload.dueDate;
     },
+    setTasks(state, tasks) {
+      console.log("tasks", tasks);
+      state.tasks = tasks;
+    },
     deleteTask(state, id) {
       state.tasks = state.tasks.filter((task) => task.id !== id);
     },
