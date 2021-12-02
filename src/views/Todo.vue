@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <field-add-task />
+    <!-- <field-add-task /> -->
     <list-tasks v-if="$store.state.tasks.length" />
     <no-task v-else />
     <button-done-sorting v-if="$store.state.sorting" />
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import FieldAddTask from "@/components/ToDo/FieldAddTask";
+// import FieldAddTask from "@/components/ToDo/FieldAddTask";
 import ListTasks from "@/components/ToDo/ListTasks";
 import NoTask from "@/components/ToDo/NoTask";
 import ButtonDoneSorting from "@/components/ToDo/ButtonDoneSorting";
@@ -27,7 +27,7 @@ export default {
     },
   },
   components: {
-    "field-add-task": FieldAddTask,
+    // "field-add-task": FieldAddTask,
     // "field-add-task": require ("@/components/ToDo/FieldAddTask.vue").default;
     "list-tasks": ListTasks,
     "no-task": NoTask,

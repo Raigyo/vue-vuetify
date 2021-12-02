@@ -5,7 +5,7 @@
         class="pa-4 pt-7"
         lazy-src="../public/images/todo-menu-images.jpg"
         src="../public/images/todo-menu-images.jpg"
-        height="170"
+        height="238"
         gradient="to top right, rgba(55,236,236,.2), rgba(25,32,72,.8)"
       >
         <v-avatar size="70" class="mb-2">
@@ -36,7 +36,7 @@
       dark
       lazy-src="../public/images/banner.jpg"
       prominent
-      height="170"
+      height="238"
       src="../public/images/banner.jpg"
     >
       <template v-slot:img="{ props }">
@@ -57,6 +57,9 @@
           }}</v-toolbar-title>
         </v-row>
         <live-date-time class="text-shadox" />
+        <v-row>
+          <field-add-task />
+        </v-row>
       </v-container>
     </v-app-bar>
     <v-sheet id="scrolling-techniques-5" max-height="600"> </v-sheet>
@@ -69,6 +72,7 @@
 
 <script>
 import Search from "@/components/Tools/Search";
+import FieldAddTask from "@/components/ToDo/FieldAddTask";
 import LiveDateTime from "@/components/Tools/LiveDateTime";
 import SnackBar from "@/components/Shared/Snackbar";
 export default {
@@ -88,6 +92,7 @@ export default {
   //   },
   // },
   components: {
+    "field-add-task": FieldAddTask,
     snackbar: SnackBar,
     search: Search,
     "live-date-time": LiveDateTime,
