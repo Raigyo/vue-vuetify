@@ -6,15 +6,21 @@ _October 2021_
 
 ---
 
-Demo on [Netlify]().
+Demo on [Netlify](https://raigyo-vuetify-todo.netlify.app).
 
 ![logo](_readme-img/logo.jpg)
+
+![capture 1](_readme-img/capture-1.png)
+
+![capture 2](_readme-img/capture-2.png)
 
 ## Concepts covered
 
 - Vuetify
-- Vuex
-- CRUD with Due Dates and sorting
+- Vuex / Routes
+- CRUD with Due Dates, draggable sorting and sorting
+- Dynamic titles
+- Persistant data with localbase
 
 ## Run local version
 
