@@ -18,7 +18,7 @@ Demo on [Netlify](https://raigyo-vuetify-todo.netlify.app).
 
 - Vuetify
 - Vuex / Routes
-- CRUD with Due Dates, draggable sorting and sorting
+- CRUD with Due Dates, draggable sorting
 - Dynamic titles
 - Persistant data with localbase
 
