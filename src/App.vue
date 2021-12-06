@@ -9,7 +9,7 @@
         gradient="to top right, rgba(55,236,236,.2), rgba(25,32,72,.8)"
       >
         <v-avatar size="70" class="mb-2">
-          <img src="../public/images//avatar.jpg" alt="Avatar" />
+          <img src="../public/images/avatar-img.jpg" alt="Avatar" />
         </v-avatar>
         <div class="text-shadox white--text text-subtitle-1 font-weight-bold">
           Vincent CHILOT
