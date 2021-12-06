@@ -2,11 +2,25 @@
 
 _October 2021_
 
-> 🔨 From udemy: [Vuetify: Create an App with Vue JS & Vuex - Danny Connel](https://www.udemy.com/course/vuetify-vuejs-vuex).
+> 🔨 Todo app vithe Vue, Vuex and Vuetify. From udemy: [Vuetify: Create an App with Vue JS & Vuex - Danny Connel](https://www.udemy.com/course/vuetify-vuejs-vuex).
 
 ---
 
+Demo on [Netlify]().
+
 ![logo](_readme-img/logo.jpg)
+
+## Concepts covered
+
+- Vuetify
+- Vuex
+- CRUD with Due Dates and sorting
+
+## Run local version
+
+- Clone
+- `npm instal`
+- `npm run serve`
 
 ## Vuex
 
@@ -73,10 +87,10 @@ When you have worked with Vue before, you probably have used regular methods to 
 
 These methods are declared in the "methods" section of your component and behave just like a regular JavaScript function.
 
-methods: {
-formatDate() {
-}
-}
+```vue
+methods: { formatDate() { } }
+```
+
 So what's the problem?
 The problem with Vue methods emerges when they are used in parts of your component, that are executed with every re-render of the component itself.
 
@@ -137,3 +151,4 @@ Even if the component is re-rendering like crazy in the meantime, the logic is n
 - [date-fns: Modern JavaScript date utility library](https://date-fns.org/)
 - [Vue.js Computed Properties](https://malcoded.com/posts/vue-computed-properties/)
 - [Understanding computed properties in Vue.js](https://blog.logrocket.com/understanding-computed-properties-in-vue-js/)
+- [Snackbars in bottom not showing in Android Chrome when the search bar is visible ](https://github.com/vuetifyjs/vuetify/issues/11781)

@@ -9,12 +9,12 @@
         gradient="to top right, rgba(55,236,236,.2), rgba(25,32,72,.8)"
       >
         <v-avatar size="70" class="mb-2">
-          <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
+          <img src="../public/images//avatar.jpg" alt="Avatar" />
         </v-avatar>
         <div class="text-shadox white--text text-subtitle-1 font-weight-bold">
-          User name
+          Vincent CHILOT
         </div>
-        <div class="text-shadox white--text text-subtitle-2">user__name</div>
+        <div class="text-shadox white--text text-subtitle-2">raigyo-dev.be</div>
       </v-img>
 
       <v-list dense nav>
@@ -36,8 +36,8 @@
       dark
       lazy-src="../public/images/banner.jpg"
       prominent
-      height="238"
       src="../public/images/banner.jpg"
+      :height="$route.path === '/' ? '238' : '170'"
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -57,7 +57,7 @@
           }}</v-toolbar-title>
         </v-row>
         <live-date-time class="text-shadox" />
-        <v-row>
+        <v-row v-if="$route.path === '/'">
           <field-add-task />
         </v-row>
       </v-container>
