@@ -50,7 +50,7 @@ export default new Vuex.Store({
   getters: {
     // we can get datas from the state
     // we can change or update datas before making them available for all components
-  }
+  },
   modules: {
     // we can divide the store in several modules
     // all modules can manage their own states, mutations, options and getters
