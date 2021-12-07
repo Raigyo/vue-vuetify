@@ -2,7 +2,7 @@
 
 _November / December 2021_
 
-> 🔨 Todo app vithe Vue, Vuex and Vuetify. From udemy: [Vuetify: Create an App with Vue JS & Vuex - Danny Connel](https://www.udemy.com/course/vuetify-vuejs-vuex).
+> 🔨 Todo app with Vue, Vuex and Vuetify. From udemy: [Vuetify: Create an App with Vue JS & Vuex - Danny Connel](https://www.udemy.com/course/vuetify-vuejs-vuex).
 
 ---
 
